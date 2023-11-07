@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity implements ButtonsAct {
                 model.setName(e.getText().toString());
             }
         });
-
-
     }
 
     @Override
