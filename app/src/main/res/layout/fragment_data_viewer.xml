@@ -23,7 +23,7 @@
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/namecurs2"
+            android:id="@+id/namecurs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
