@@ -36,7 +36,7 @@ public class APIMenu extends Fragment {
             @Override
             public void onClick(View v) {
                 Activity mainact = getActivity();
-                ((ButtonsAct)mainact).getButton();
+                ((ButtonsAct)mainact).changeFragment(1);
             }
         });
 
@@ -44,15 +44,7 @@ public class APIMenu extends Fragment {
             @Override
             public void onClick(View v) {
                 Activity mainact = getActivity();
-                ((ButtonsAct)mainact).getButton();
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Activity mainact = getActivity();
-                ((ButtonsAct)mainact).getButton();
+                ((ButtonsAct)mainact).changeFragment(2);
             }
         });
 

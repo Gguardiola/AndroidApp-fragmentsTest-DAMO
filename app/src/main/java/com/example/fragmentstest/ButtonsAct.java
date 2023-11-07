@@ -4,6 +4,6 @@ import android.widget.Toast;
 
 public interface ButtonsAct {
 
-    default void getButton(){
+    default void changeFragment(int k){
     }
 }
